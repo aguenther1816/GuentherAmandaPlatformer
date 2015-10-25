@@ -1,0 +1,23 @@
+.background    { background-image: url("http://orig10.deviantart.net/3fb0/f/2014/241/c/1/simple_background_by_hexdef101-d7x7rup.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("../images/canopener.jpg"); }
+.wall          { background: gray;   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("../images/lemonlime.png"); }
+.player { background-image: url("../images/sprite.gif"); }
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px yellow, 4px -7px 8px yellow;
+}
